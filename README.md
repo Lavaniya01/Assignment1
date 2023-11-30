@@ -1,1 +1,3 @@
 # Assignment1
+Intial idea:
+My idea for the assignment is to redesign Craigslist website. This is because the current website is not so user-friendly and outdated and needs a lot of improvements. The redesign will make it more user-friendly and have a better looking user interface. Some of my ideas would be categorizing the classified advertisements in a proper manner as well as scroll to change the categories when looking at the ads and creating an advertisement. 
