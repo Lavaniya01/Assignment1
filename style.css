@@ -1,15 +1,17 @@
 header {
     position: relative;
-    padding-top: 40px;
+    padding-top: 20px;
+    margin-top: 50px;
   }
 
 .logo {
     position: absolute;
-    top: 0;
+    top: -35px; 
     left: 0;
-    width: 100px;
+    width: 90px;
     height: 50px;
-  }
+    }
+
   h1 {
     background-color: #6b34a3;
     color: white;
@@ -26,12 +28,10 @@ header {
   }
   
   #search {
-    border: 1px solid #6b34a3;
-    padding: 20px;
-  }
-  
-  #search h2 {
-    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #6b34a3;
+    margin-bottom: 20px;
+    padding: 40px;
   }
   
   #search input {
@@ -46,6 +46,7 @@ header {
 
 .container {
     margin: 0 auto;
+    height: 200px;
     width: 500px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -60,69 +61,57 @@ label {
     margin-bottom: 5px;
 }
 
-input, button {
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-}
-
-button {
-    cursor: pointer;
-}
-
-.Login {
-  margin: 0 auto;
-  width: 300px;
-  padding: 20px;
-  border: 1px solid #ccc;
-}
-
-.login-button {
+.loginbutton {
   position: absolute;
   top: 20px;
   right: 20px;
-  padding: 10px 15px;
+  padding: 10px 40px;
   background-color: #6b34a3;
   color: #fff;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 20px;
 }
+
+.postbutton{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 40px;
+  background-color: #6b34a3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-}
-
-.flex {
-  flex: 1;
-  background-color: #ccc;
-  padding: 100px;
-  margin: 50px;
-}
-
-#createpost {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  flex-grow: 1;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
+  background-color: white;
+  color: purple;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 20px;
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: grey;
     text-align: center;
     padding: 0px;
+    z-index: 1;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
   }
 
 

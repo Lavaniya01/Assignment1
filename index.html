@@ -2,7 +2,10 @@
 <html>
 <head>
   <title>Craigslist</title>
+  <a href="login.html" class="loginbutton">Login</a>
+  <a href="createapost.html" class="postbutton">Create a post</a>
   <link rel = "stylesheet" href = "style.css">
+  <script src="javascript.js"></script>
 </head>
 <body>
   <header>
@@ -11,25 +14,25 @@
   </header>
   <main>
     <section id="search">
-      <h2>Search Anything</h2>
+      <input type="text" placeholder="Search anything...">
+      <div class="spacer"></div>
       <button type="submit">Search</button>
     </section>
     <section id="categories">
       <div
       class="flex-container">
       <div
-      class="flex">Community</div>
+      class="flex"></div>
+      <img src="community.png" alt="Community">
       <div
-      class="flex">Housing</div>
+      class="flex"></div>
+      <img src="housing.jpg" alt="Housing">
       <div
-      class="flex">Others</div>
+      class="flex"></div>
+      <img src="others.png" alt="Others">
       </div>
-    </section>
-    <section id="createpost">
-      <button type="submit">Create a Post Instead!</button>
-    </section>
   </main>
-  <footer>
+  <footer> 
     <p>Copyright 2023</p>
   </footer>
 </body>
