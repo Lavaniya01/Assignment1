@@ -20,7 +20,7 @@ header {
     margin: 0 auto;
   }
   .search-button {
-    background-color: #6b34a3;
+    background-color: #f2eff5;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -29,16 +29,11 @@ header {
   
   #search {
     padding: 10px 10px;
-    background-color: #6b34a3;
+    background-color: #efebf4;
     margin-bottom: 20px;
     padding: 40px;
   }
   
-  #search input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
 
   body {
     font-family: sans-serif;
@@ -111,7 +106,7 @@ footer {
 
   img {
     width: 200px;
-    height: 200px;
+    height: 100px;
   }
 
   body {
