@@ -149,3 +149,30 @@ button {
   transform: translate(-50%, -50%);
   }
 
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .container3 {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.logo3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 90px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+  }
